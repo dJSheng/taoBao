@@ -199,6 +199,7 @@
 .top-qr{
 	float: left;
 	position: relative;
+	top: -5px;
 	margin-left: 110px;
     cursor: pointer;
     display: block;
@@ -230,7 +231,7 @@
 }
 .search-hots-fline li {
 	 float: left;
-	 margin-right: 3px;
+	 margin-right: 5px;
 	 line-height: 30px;
 }
 .search-hots-fline li .now-hot{
@@ -240,4 +241,410 @@
 .search-hots-fline li a{
 	 color: #3C3C3C;
 	 cursor: pointer;
+}
+.tbh-nav{
+	height: 30px;
+	margin-top: 5px;
+    line-height: 30px;
+    background: #ff8200;
+}
+.tbh-nav h2{
+	float: left;
+    width: 190px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #ff5000;
+}
+.tbh-nav ul{
+	float: left;
+    font-size: 16px;
+    color: #fff;
+}
+.tbh-nav li {
+	float: left;
+    margin: 0 3px;
+    text-align: center;
+    padding: 0 4px;
+}
+.tbh-nav li a{
+	color: #fff;
+	font-size: 14px;
+}
+.main{
+	position: relative;
+	top: -1px;
+    height: 522px;;	
+}
+.main-left{
+	float: left;
+	width: 900px;
+	height: 522px;
+	box-sizing: border-box;
+}
+.main-left-sidebar{
+	float: left;
+	width: 190px;
+	height: 522px;
+    border: 1px solid #ff5000;
+    border-top: none;
+    background-color:#fff;
+    padding-top: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main-left-sidebar li{
+	display: inline-block;
+	line-height: 33px;
+	width: 100%;
+	height: 32px;
+	font-size: 14px;
+	padding-left: 25px;
+	position: relative;
+	box-sizing: border-box;
+}
+.main-left-sidebar li:hover{
+    background-color: #ffe4dc;
+    color: #FF5000;
+}
+.main-left-sidebar-min{
+	position: absolute;
+	display: inline-block;
+	right: 12px;
+	top: 0px;
+}
+.slideshow{
+	float: left;
+	width: 520px;
+	height: 522px;
+	padding: 15px 0 0 10px;
+	box-sizing: border-box;
+}
+.slideshow-top-img{
+	width: 520px;
+	height: 280px;
+	margin-bottom: 15px;
+}
+.slideshow-bottom-img{
+	width: 520px;
+	box-sizing: border-box;
+}
+.tmall-hd{
+	font-size: 12px;
+	color: #666;
+    border-bottom: 3px solid #ff1648;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.tmall-logo{
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	width: 136px;
+	height: 19px;
+	background: url(../images/t-m.png) no-repeat;
+}
+
+.tmall-now{
+	color: red;
+}
+
+.progress-bar{
+	float: right;
+	margin-top: 5px;
+}
+.inner{
+	line-height: 19px;
+}
+.tmall-bd{
+	background: #fff;
+	height: 180px;
+	padding:8px 0 0 8px;
+}
+.tmall-bd-box{
+	overflow: hidden;
+}
+.tmall-bd-box li{
+	float: left;
+	margin-right: 3px;
+}
+.tmall-bd-box .last li{
+	margin-right: 0px;
+}
+.recommend {
+	float: left;
+	width: 160px;
+	height: 507px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+
+.hot-sale{
+	margin-top: 10px;
+}
+.hot-sale h5{
+	font-size: 12px;
+    font-weight: 400;
+    background: #f1f1f1;
+    color: #a1a1a1;
+    line-height: 28px;
+}
+.main-right{
+	float: right;
+	margin-top:15px;
+	width:290px;
+	height: 507px;
+	background: #fff;
+	box-sizing: border-box;
+}
+.main-right-user{
+	width: 290px;
+	height: 145px;
+    text-align: center;
+    background:url(../images/main-right-background-image.png);
+    background-size:100% 100%;
+}
+.user-img{
+	display: inline-block;
+	margin-top: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background:url(../images/main-right-user.jpg);
+}
+.greeting{
+    line-height: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+.property a{
+	 color: #ff5000;
+}  
+.gold{
+	display: inline-block;
+	border-radius: 9px;
+    background-clip: padding-box;
+    background: #ffe4db;
+    padding: 0 10px 0 20px;
+    position: relative;
+    border: none;
+}
+.tbh-icon-gold,
+.tbh-icon-membe{
+	position: absolute;
+    top: 0;
+    display: block;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 -572.5px no-repeat;
+}
+.membe{
+	display: inline-block;
+	 border-radius: 9px;
+    background-clip: padding-box;
+    background: #ffe4db;
+    padding: 0 10px 0 20px;
+    position: relative;
+    border: none;
+}
+.tbh-icon-membe{
+    background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 -528px; no-repeat;
+}
+.user-btn{
+	display: inline-block;
+	height: 40px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.user-login,
+.user-register,
+.user-open-shop{
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #ff6f06 ;
+	border-radius: 4px;
+	font-weight: 700;
+}
+.user-login{
+	width: 92px;
+}
+.user-register{
+	width:75px;
+}
+.user-open-shop{
+	width:75px;
+}
+.inform{
+	position: relative;
+	text-align: center;
+	top:-2px;
+    color: #f40;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    background: #ffe4dd;
+    font-size: 12px;
+}
+.triangle{
+	position: absolute;
+	display: inline-block;
+    right: 52px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #f40;
+}
+.information{
+	width: 290px;
+	height: 102px;
+	overflow: hidden;
+}
+.information-hd{
+	background: #fff;
+	height: 32px;
+	position: relative;
+    padding:0 8px;
+}
+.information-hd li{
+	float:left;
+	width: 33px;
+	height: 22px;
+	margin:10px 10px 0 10px;
+
+}
+.information-hd li a{
+	color: #3C3C3C;
+}
+.underline{
+	position: absolute;
+	left: 18px;
+	top:30px;
+	width: 33px;
+	height: 2px;
+	background-color:#ff6f06;
+}
+.information-bd{
+ 	padding: 12px 10px 0px 10px;
+ 	box-sizing: border-box;
+}
+.information-bd-t,
+.information-bd-b{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	color: #ff5000;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.information-bd-t{
+	color: #ff5000;
+}
+.information-bd-b{
+	color: #3C3C3C;
+}
+.lifeservice{
+	overflow: hidden;
+	height: 155px;
+	width: 290px;
+	border: 1px solid #f4f4f4;
+	border-right: none;
+	border-left: none;
+	box-sizing: border-box;
+	background: #fff;
+	text-align: center;
+}
+.lifeservice li{
+	float: left;
+	width: 71px;
+	height: 77px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.main-right .lifeservice ul .li-r-border{
+	border-right:none;
+}
+.main-right .lifeservice ul .li-l-border{
+	border-left:none;
+}
+.tbh-icon-prepaid-refill,
+.tbh-icon-travel,
+.tbh-icon-car-insurance,
+.tbh-icon-game,
+.tbh-icon-lottery,
+.tbh-icon-movie,
+.tbh-icon-hotel,
+.tbh-icon-money{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+    background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 0 no-repeat;
+}
+.tbh-icon-refill{
+	background-position: 0 0;
+}
+.tbh-icon-travel{
+	background-position: 0 -87px;
+}
+.tbh-icon-car-insurance{
+	background-position: 0 -44px;
+}
+.tbh-icon-game{
+	background-position: 0 -132px;
+}
+.tbh-icon-lottery{
+	background-position: 0 -176px;
+}
+.tbh-icon-movie{
+	background-position: 0 -220px;
+}
+.tbh-icon-hotel{
+	background-position: 0 -264px;
+}
+.tbh-icon-money{
+	background-position: 0 -308px;
+}
+.lifeservice p{
+	color: #333;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    line-height: 24px;
+}
+.a-li-app{
+	width: 290px;
+	height: 77px;
+	background-color: green; 
+}
+.app-hd{
+	font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.app-hd-title{
+	display: inline-block;
+	margin-left: 14px;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	font-weight: 700;
+}
+.app-hd-more{
+	display: inline-block;
+	margin-left: 170px;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.app-bd{
+	padding-left: 23px;
+    position: relative;
+    height: 44px;
+}
+.app-bd li{
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
 }
