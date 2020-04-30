@@ -1081,3 +1081,120 @@
     overflow: hidden;
     margin-top: 2px;
 }
+.fashion{
+	height: 290px;
+	margin-top: 10px;
+}
+.fashion-revelation-l{
+	float: left;
+    width: 840px;
+	height: 290px;
+	background-color: #fff;
+}
+	
+.fashion-revelation-l-hd{
+	padding-left:20px;
+	height: 49px;
+	line-height: 49px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f4f4f4;
+}
+.vertical-line{
+	display: inline-block;
+	width: 4px;
+	height: 16px;
+	background-image: linear-gradient(45deg, #8558d6, #b865e2);
+}
+.fashion-revelation-l-hd-title{
+	display: inline-block;
+	width: 500px;
+	color: #AD45Df;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 2px;
+}
+
+.fashion-revelation-l-bd{
+	height: 236px;
+}
+.fashion-revelation-l-bd-item{
+	width: 278px;
+    border: 1px solid transparent;
+    border-right: 1px solid #f4f4f4;
+    border-bottom-color: #fff;
+    float: left;
+    height: 234px;
+}
+.fashion-revelation-l-bd-info{
+	padding-left: 20px;
+}
+.fashion-revelation-l-bd-brand-item{
+	margin-top: 27px;
+    font-size: 18px;
+    color: #333;
+    line-height: 26px;
+    height: 26px;
+    font-weight: normal;
+}
+.fashion-revelation-l-bd-title{
+	font-family:'Hiragino Sans GB';
+	color: #3C3C3C;
+	font-weight: 400;
+}
+.fashion-revelation-l-bd-subtitle{
+	color: #999;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+.fashion-revelation-l-bd-img{
+	margin-top: 12px;
+    padding-left: 16px;
+}
+.fashion-revelation-l-bd-img-l{
+	float: left;
+	margin-left: 2px;
+}
+.fashion-revelation-l-bd-img-r{
+	float: left;
+	margin-left: 10px;
+}
+.today-new-r{
+	float: right;
+    width: 298px;
+    height: 248px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tb-tanx-wrapper-r{
+	float: right;
+	width: 338px;
+	height: 290px;
+	background-color: #fff;
+}
