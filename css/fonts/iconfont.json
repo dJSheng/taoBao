@@ -13,6 +13,27 @@
       "unicode_decimal": 58938
     },
     {
+      "icon_id": "608170",
+      "name": "引号",
+      "font_class": "baojiaquotation",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "608172",
+      "name": "引号",
+      "font_class": "baojiaquotation2",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "996751",
+      "name": "箭头",
+      "font_class": "ai37",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
       "icon_id": "1110411",
       "name": "下箭头",
       "font_class": "jiantou9",
@@ -41,6 +62,27 @@
       "unicode_decimal": 58923
     },
     {
+      "icon_id": "2279255",
+      "name": "箭头",
+      "font_class": "jiantou-copy-copy-copy",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "4159806",
+      "name": "笑脸",
+      "font_class": "emotion",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "5077697",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
       "icon_id": "5305686",
       "name": "x",
       "font_class": "x",
@@ -53,6 +95,34 @@
       "font_class": "zhaoxiangji",
       "unicode": "e60c",
       "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6366900",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "9148956",
+      "name": "箭头",
+      "font_class": "weimingmingwenjianjia_jiantou",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "9241145",
+      "name": "手机",
+      "font_class": "iconzhengli_shouji",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "12686830",
+      "name": "箭头",
+      "font_class": "icon-",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
     },
     {
       "icon_id": "14101587",

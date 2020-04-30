@@ -1,12 +1,13 @@
  /* 引入字体文件 申明一种字体 */
+
 @font-face {
-  font-family: "iconfont";
-  src: url('./fonts/iconfont.eot?t=1588047609357'); /* IE9 */
-  src: url('iconfont.eot?t=1588047609357#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAWgAAsAAAAACywAAAVUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCEAgqILIZhATYCJAMkCxQABCAFhG0HfxuECVGUD1KM7GeCTae24EWYEEPJAHiUlmVdjPuaf4N4rOurl6SnuYJ4gnGS+689f6393hdFtDKzGTNrttx/J7anqEbTLl4CmSwWGiEyuabASQHz7RywntzVTmKg4Iaoxv/23wbKYCfBbbq4JXB3+d8fK91I3FmQfPZtwVYpozGarugogQ6oIkEOJEDsHrI5UB/JrIizIYBHarLxVGztHoYwBtpIAOkpCRTCHhMmgSY42kjEngaZi4WjpqkrQzDH+H15M5RfHFBYGjpX3c4tMagPJSakx0Z1WupVxlbnAG77gQZyAhiQ+ZGumWgrlRMf3qfQ0BYgLj+ND0IJbWEwzBDmCIvHlI5GAzxgM6ikkC4V1gY0ChuDgzXEf55EIFUAxL5pB0JREDSEPoKCMECwIUyGYCDMICqmzgEGLFAXBwSBmNJqJhvvquMDVcpqFgGxoko2pEvQi9QocRO4buo09QKyi7sqoH7yNLjSuQ9IOTxpKA0KMbQgEr5DHy+jY5lq1fxHJ6pyUK7rDatlNM2Vt2zV75kolU0ETJnrZpWvIImIBrRbQuf7pkwq7cCqabEUksAR/2XQaa2KTCAc/1x4lMMIyTW6i/yC+3r/w39/tN/HgwGx4LK1vKw0pZLSt845AAuKIIH2/88K9P4G536qF6tk1Y+k0twGUUn5d54dZtNoaU7R0Ovh324HjOxRtovpNsEPQAzgu5n1iKPaHB41WhAytQwrfgKtxpBXr187R4GJKMB8ARz9/s2V/jd/BrP5Pv1o6x2rZ3QvCMGEYkaZE6TmRYb2R/tng5PGraGEav0YTFlb8c6Rs1Omtptastu5qZ3KnZZacoAOlervsnHPFPJa1639+vHvUP4uKW9SpN2R2X/gf7A28+PbtVNeF+gWFASvge+oV4d5375ra5emipUmRZ64srKLH/UfoAfaE6VrenRj/Dzxau17QrETtpJCQ6cxamzVRmk+qxkpHVPNe3Ds5Bwt8OEp9Hw979ipOSpiP7Vt3to2nTWq/21c8vVPldev37/svdqux4J+8zbreZe819vVmPo841L1RGm68NBhcLl6WuWEvkTNOiU90rBaEIrm7/46drwU8W68PoFTCoJ/gIx2T2jEYfVI3N6YNpAU8ZLHSyFjyjj4eB3xlFV3y9Q6mnYCh2vX2YkXWK5f5liFrbiXa9VZLRtZNytvrLItrX4fKuoNSlp6vPizX8MBjmleGv5P0gefA3vW5X9/ayjja/o9GzzHY2UsQJRKqMsCgD6qht9vt16v0wLR9GqdHgC9QW0H0GnUGkbv6DU9Db0v5/laTP2mjTZxqr858NKfcffq9V9GKMpQvcdB7TY1Z7U444D5SsnsmnfniqiAx6XeLk8owONj4Gz2xee3Wk2izJUgOCRyQGGTCjQOGbGGmBMsfApCBIcy4JGDtv19EmDhQ4wLZGeLgRCXZ1DE5jho4vKKNcQfsEjMH0SIKxo8GkvaEX0yS7dok4XUwRiZGkakDkznZasTNasHUXBVarmlBmMULVuKkoLcef3ZNtTRqmIbe7BQ6AzkCd+faaSVnQ9VlRGjP5ORc3LFgY5RmZenc9Qr5XJ9NIhSAQuE4oDEIEwxB0GCg6HDa9M7RAM/Pwgi4KJCsRJafrhHQSxspMUTCsglPwO2TaVnatmVRptpBApxMMFD4G+VDA1CKzoQlacYBCN6NRmEwyEXsUDCoJI8HMVnVeU2r9HW9QLAg47tihItRiyJiC2OuOIRazBaM3MEqk6oko5hWaK6w9yKcBf1yDMuJ2LQZq7tslCMMpHqgmc2bt5wsFnJSchSdMZNLfgGdQEA') format('woff2'),
-  url('iconfont.woff?t=1588047609357') format('woff'),
-  url('iconfont.ttf?t=1588047609357') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url('iconfont.svg?t=1588047609357#iconfont') format('svg'); /* iOS 4.1- */
+  font-family: 'iconfont';
+  src: url('./fonts/iconfont.eot');
+  src: url('./fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/iconfont.woff2') format('woff2'),
+      url('./fonts/iconfont.woff') format('woff'),
+      url('./fonts/iconfont.ttf') format('truetype'),
+      url('./fonts/iconfont.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -647,4 +648,315 @@
 	float: left;
 	margin-top: 10px;
 	margin-right: 20px;
+}
+/**-*************************************************************************/
+.recommend-good{
+	margin-top: 10px;
+	height: 658px;
+	width: 100%;
+	
+}
+.high-quality-l{
+	float: left;
+	height: 658px;
+	width: 590px;
+	background-color: #fff;
+	padding: 20px 0px 0 20px;
+	box-sizing: border-box;
+}
+.high-quality-hd{
+	height: 24px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.mlogo{
+	float: left;
+	width: 74px;
+	height: 24px;
+    margin-right: 5px;
+}
+.high-quality-qr{
+	display: inline-block;
+	position: relative;
+    float: left;
+    width: 26px;
+    text-align: center;
+    height: 24px;
+}
+.high-quality-qr-img{
+	font-size: 20px;
+    margin: 0;
+    color: #ccc;
+    position: relative;
+    top: 6px;
+}
+.subtitle{
+	display: inline-block;
+	line-height: 32px;
+    height: 24px;
+    color: #999;
+    font-weight: 400;
+}
+.goods-list{
+	overflow: hidden;
+}
+
+.goods-list li{
+	float: left;
+	
+}
+.goods-list li a{
+	display: inline-block;
+	width: 180px;
+	height: 271px;
+	overflow: hidden;
+    margin: 10px 4px 17px 0;	
+}
+.a-all{
+	width: 100%;
+    height: 180px;
+    display: block;
+}
+.img-wrapper{
+	overflow: hidden;
+	background: #4f4f4f;
+}
+.goods-list-info{
+    overflow: hidden;
+    padding: 0px 4px 0 6px;
+}
+.goods-list a h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: normal;
+}
+.goods-list a p {
+    line-height: 24px;
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+    height: 24px;
+}
+.goods-list .goods-list-extra{
+	line-height: 22px;
+    height: 22px;
+    margin-top: 12px;
+    color: #35b1ff;
+    font-size: 14px;
+    overflow: hidden;
+}
+.smiling{
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+
+
+/*******************************************/
+.high-quality-l{
+	float: left;
+	height: 658px;
+	width: 590px;
+	background-color: #fff;
+	padding: 20px 0px 0 20px;
+	box-sizing: border-box;
+}
+.high-quality-hd{
+	height: 24px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.mlogo{
+	float: left;
+	width: 74px;
+	height: 24px;
+    margin-right: 5px;
+}
+.high-quality-qr{
+	display: inline-block;
+	position: relative;
+    float: left;
+    width: 26px;
+    text-align: center;
+    height: 24px;
+}
+.high-quality-qr-img{
+	font-size: 20px;
+    margin: 0;
+    color: #ccc;
+    position: relative;
+    top: 6px;
+}
+.subtitle{
+	display: inline-block;
+	line-height: 32px;
+    height: 24px;
+    color: #999;
+    font-weight: 400;
+}
+.goods-list{
+	overflow: hidden;
+}
+
+.goods-list li{
+	float: left;
+	
+}
+.goods-list li a{
+	display: inline-block;
+	width: 180px;
+	height: 271px;
+	overflow: hidden;
+    margin: 10px 4px 17px 0;	
+}
+.a-all{
+	width: 100%;
+    height: 180px;
+    display: block;
+}
+.img-wrapper{
+	overflow: hidden;
+	background: #4f4f4f;
+}
+.goods-list-info{
+    overflow: hidden;
+    padding: 0px 4px 0 6px;
+}
+.goods-list a h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: normal;
+}
+.goods-list a p {
+    line-height: 24px;
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+    height: 24px;
+}
+.goods-list .goods-list-extra{
+	line-height: 22px;
+    height: 22px;
+    margin-top: 12px;
+    color: #35b1ff;
+    font-size: 14px;
+    overflow: hidden;
+}
+.smiling{
+	margin-right: 4px;
+	font-size: 15px;
+}
+
+
+
+
+.love-shopping-r{
+	float: right;
+	height: 658px;
+	width: 590px;
+	background-color: #fff;
+	padding: 20px 0px 0 20px;
+	box-sizing: border-box;
+}
+.love-shopping-hd{
+	height: 24px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.alogo{
+	float: left;
+	width: 74px;
+	height: 24px;
+    margin-right: 5px;
+}
+.love-shopping-more{
+	display: inline-block;
+	position: relative;
+	 margin-right: 15px;
+    float: right;
+    width: 50px;
+    text-align: center;
+    height: 24px;
+    color: #999;
+}
+.love-shopping-more-img{
+	font-size: 20px;
+    margin-left: 5px;
+    color: #ccc;
+    position: relative;
+    top: 5px;
+}
+.love-shopping-list{
+	overflow: hidden;
+}
+
+.love-shopping-list li{
+	float: left;
+}
+.love-shopping-list li a{
+	display: inline-block;
+	width: 180px;
+	height: 271px;
+	margin: 8px 4px 17px 0;
+	overflow: hidden;	
+}
+.a-all{
+	width: 100%;
+    height: 180px;
+    display: block;
+}
+.img-wrapper{
+	overflow: hidden;
+	background: #4f4f4f;
+}
+.love-shopping-list-info{
+	position: relative;
+    margin-top: 11px;
+    padding: 0 10px;
+    line-height: 22px;
+    height: 44px;
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.quotation-mark-l{
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+    margin-top: -4px;
+    margin-right: 4px; 
+}
+.quotation-mark-r{
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+    margin-top: -4px;
+    margin-left: : 4px;
+}
+
+.love-shopping-list .love-shopping-list-extra{
+	margin-top: 14px;
+	width: 170px;
+	height: 22px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.pic-wrapper{
+	float: left;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-clip: padding-box;
+    overflow: hidden;
+}
+.love-shopping-user{
+	margin-left: 30px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
 }
