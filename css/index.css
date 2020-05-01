@@ -1271,6 +1271,9 @@
 	padding-left: 20px;
 	box-sizing: border-box;
 }
+.quality-l-bd-r-img-first{
+	border-top: none !important;
+}
 .quality-l-bd-r-img-item{
 
 }
@@ -1315,5 +1318,223 @@
     color:#ff5000;
     font-size: 20px;
 }
+.economy{
+	height: 256px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.economy-hd{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+	padding-left: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #fff;
+}
+.economy-hd-vertical-line{
+	display: inline-block;
+    width: 4px;
+    height: 16px;
+    background-image: linear-gradient(45deg, #b4ec51, #31ba98);
+    background: #31ba98;
+}
+.economy-hd-title{
+	display: inline-block;
+    margin-left: 3px;
+    color: #31ba98;
+    font-size: 20px;
+}
+.economy-bd-item{
+	float: left;
+    width: 238px;
+    height: 208px;
+    border: 1px solid transparent;
+    border-bottom-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.economy-bd-item-title{
+	margin-top: 24px;
+    line-height: 26px;
+    height: 26px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+}
+.economy-bd-item-img img{
+	float: left;
+}
+.economy-bd-item-img-info{
+	margin-left: 131px;
+}
+.economy-bd-item-img-title{
+	margin-top: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.economy-bd-item-img-subtitle{
+	font-size: 14px;
+    color: #999;
+    line-height: 22px;
+}
+.economy-bd-item-img-btn{
+	margin-top: 13px;
+    display: block;
+    width: 76px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #ff5000;
+    color: #ff5000;
+    border-radius: 12px;
+    background-clip: padding-box;
+    text-align: center;
+}
+.hot-sales{
+	margin-top: 10px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.hot-sales-hd{
+	padding-left: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.hot-sales-hd-t{
+	margin:17px 0;
 
+}
+.hot-sales-hd-vertical-line{
+	display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: #FF5500;
+    margin-right: 3px
+}
+.hot-sales-hd-title{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    color: #FF5500;
+    box-sizing: border-box;
+}
+.hot-sales-hd-b{
+	width: 100%;
+	float: left;
+}
+.hot-sales-hd-b li{
+	float: left;
+}
+.hot-sales-hd-b li a{
+    float: left;
+    margin-bottom: 13px;
+    padding-right: 15px;
+    color: #999;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+}
+.hot-sales-hd-b-banner{
+	float: right;
+	margin-right: 20px;
+	width: 32px;
+	height: 15px;
+}
+.hot-sales-bd li{
+    float: left;
+    width: 197px;
+    padding: 20px;
+    border: 1px solid #f4f4f4;
+    margin: -1px 0 0 -1px;
+    border-bottom-color: #f4f4f4;
+}
+.hot-sales-bd-content-1{
+	width: 197px;
+	height: 40px;
+	line-height: 20px;
+	margin: 8px 0;
+	overflow: hidden;
+    color: #666;
+    font-size: 14px;
+}
+.hot-sales-bd-content-img{
+	width: 28px;
+	height: 16px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+.hot-sales-bd-content-2{
+	height: 18px;
+    margin-bottom: 17px;
 
+}
+.hot-sales-bd-content-2 a{
+	color: #999;
+    float: left;
+    margin-right: 10px;
+}
+.hot-sales-bd-content-2 em{
+    font-family: arial;
+    color: #999;
+}
+.hot-sales-bd-content-3{
+	height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.price{
+	color: #ff5000;
+    font-family: arial;
+    margin-right: 3px;
+}
+.price span{
+	font-family: "Microsoft Yahei";
+	font-size: 7px;
+}
+.price em{
+	font-size: 22px;
+    margin-left: 2px;
+}
+.historical-price{
+	color: #999;
+    font-family: arial;
+    text-decoration: line-through;
+}
+.historical-price span{
+	color: #999;
+    font-family: arial;
+    font-size: 7px;
+}
+.historical-price em{
+	color: #999;
+    font-family: arial;
+}
+.sell{
+	color: #999;
+    float: right;
+    display: block;
+    margin-top: 3px;
+}
+.sell em{
+	color: #999;
+    font-family: arial;
+}
+.zuanshi{
+	height: 170px;
+	padding: 20px 0px 0 20px;
+	box-sizing: border-box;
+}
+.zuanshi li{
+	float: left;
+	margin-right: 12px;
+}
+.zuanshi li a{
+	float: left;
+	width: 375px;
+	height: 130px;
+}
