@@ -6,11 +6,25 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "980",
+      "name": "淘宝特色",
+      "font_class": "taobaotese",
+      "unicode": "f0033",
+      "unicode_decimal": 983091
+    },
+    {
       "icon_id": "551844",
       "name": "竖线",
       "font_class": "vertical_line",
       "unicode": "e63a",
       "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "584017",
+      "name": "问号",
+      "font_class": "iconfontwenhao1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
     },
     {
       "icon_id": "608170",
@@ -27,6 +41,13 @@
       "unicode_decimal": 58940
     },
     {
+      "icon_id": "795505",
+      "name": "安全",
+      "font_class": "ai-safe",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
       "icon_id": "996751",
       "name": "箭头",
       "font_class": "ai37",
@@ -37,8 +58,8 @@
       "icon_id": "1110411",
       "name": "下箭头",
       "font_class": "jiantou9",
-      "unicode": "e60b",
-      "unicode_decimal": 58891
+      "unicode": "e60c",
+      "unicode_decimal": 58892
     },
     {
       "icon_id": "1287679",
@@ -93,8 +114,8 @@
       "icon_id": "5324398",
       "name": "照相机",
       "font_class": "zhaoxiangji",
-      "unicode": "e60c",
-      "unicode_decimal": 58892
+      "unicode": "e60d",
+      "unicode_decimal": 58893
     },
     {
       "icon_id": "6366900",
@@ -116,6 +137,13 @@
       "font_class": "iconzhengli_shouji",
       "unicode": "e648",
       "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "11239031",
+      "name": "付款",
+      "font_class": "fukuan",
+      "unicode": "e645",
+      "unicode_decimal": 58949
     },
     {
       "icon_id": "12686830",

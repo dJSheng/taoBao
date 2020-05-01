@@ -275,7 +275,6 @@
 .main{
 	position: relative;
 	top: -1px;
-    height: 522px;;	
 }
 .main-left{
 	float: left;
@@ -1350,7 +1349,7 @@
 .economy-bd-item{
 	float: left;
     width: 238px;
-    height: 208px;
+    height: 198px;
     border: 1px solid transparent;
     border-bottom-color: #f4f4f4;
     border-right-color: #f4f4f4;
@@ -1537,4 +1536,224 @@
 	float: left;
 	width: 375px;
 	height: 130px;
+}
+.guess-like{
+	margin-top: 10px;
+	background-color: #fff;
+}
+.guess-like-hd{
+	height: 55px;
+	line-height: 55px;
+	padding-left: 20px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.guess-like-vertical-line{
+	display: inline-block;
+    width: 4px;
+    height: 16px;
+    background-image: linear-gradient(45deg, #fad961, #ff9f00);
+    background: #ff9f00;
+}
+.guess-like-hd-title{
+	display: inline-block;
+    width: 500px;
+    color: #ff9f00;;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.guess-like-bd{
+	float: left;
+	background-color: #fff;
+}
+.guess-like-bd li{
+	float: left;
+    padding: 20px 20px 0 20px;
+    border: 1px solid transparent;
+    color: #6c6c6c;
+    width: 238px;
+    height: 332px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+    box-sizing: border-box;
+}
+.guess-like-bd li a{
+	
+}
+.guess-like-bd li a h4{
+	margin-top: 7px;
+    line-height: 24px;
+    height: 44px;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    transition: color 0.3s;
+    overflow: hidden;
+}
+.guess-like-bd li a h4 img{
+	vertical-align: top;
+	position: relative;
+	top: 3PX;
+	width:49px;
+	height:16px;
+	margin-right: 2PX;
+
+}
+.guess-like-bd-content{
+	margin-top: 22px;
+    height: 24px;
+    line-height: 24px;
+}
+.guess-like-bd-content-price{
+	float: left;
+	color: #F40;
+    font-size: 20px;
+
+}
+.guess-like-bd-content-price em{
+	font-family: "Microsoft Yahei";
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin-right: 2px;
+    font-size: 12px;
+    vertical-align: inherit;
+}
+.guess-like-bd-content-sales{
+	float: right;
+    color: #9ca0aa;
+    margin-top: 3px;
+}
+.hotsale-end{
+	height: 50px;
+	background-color: #f4f4f4;
+	line-height: 50px;
+	text-align: center;
+}
+.hotsale-end i{
+	display: inline-block;
+    color: #ccccd0;
+    width: 84px;
+    font-size: 18px;
+    margin: 20px;
+}
+.hotsale-end-l{
+	display: inline-block;
+    border-top: 2px solid #e6e6e6;
+    width: 60px;
+    height: 5px;
+}
+.hotsale-end-r{
+	display: inline-block;
+    border-top: 2px solid #e6e6e6;
+    height: 5px;
+    width: 60px;
+}
+.helper{
+	height: 200px;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+.helper-list{
+	float: left;
+	width: 297px;
+	height: 95px;
+	padding: 0 25px;
+	box-sizing: border-box;
+}
+.helper-iconfont-set{
+	float: left;
+	font-size: 32px;
+    color: #999;
+}
+.helper span{
+	float: left;
+    margin-left: 12px;
+    padding-top: 5px;
+    font-size: 16px;
+    color:  #3C3C3C;   
+}
+.helper-content {
+	margin-top: 15px
+}
+.helper-content li{
+	height: 20px;
+	float: left;
+	color: #999;
+	margin-right: 10px;
+	line-height: 15px;
+	vertical-align: top;
+}
+.footer{
+	height: 272px;
+	background-color:#fff;
+	padding-top: 5px;
+	box-sizing: border-box;
+	padding-top: 7px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+.tb-footer-hd p {
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+}
+.tb-footer-hd span {
+    margin: 0 3px;
+}
+.tb-footer-hd b {
+    margin: 0 3px;
+    font-weight: 400;
+    color: #ddd;
+}
+.tb-footer-bd{
+
+}
+.tb-footer-bd p {
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+.tb-footer-bd span {
+    margin: 0 3px;
+}
+.tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+.tb-footer-bd em {
+    margin-left: 30px;
+    font-style: normal;
+}
+.tb-footer-bd b {
+    margin: 0 1px;
+    font-weight: 400;
+    color: #ddd;
+}
+.tb-footer-mod {
+	display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+}
+.tb-footer-mod-b{
+	    background-position: 0px 0px;
+    width: 36px;
+    background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+}
+.footer a{
+	font-size: 11px;
+}
+.tb-footer-ft {
+   height: 80px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tb-footer-ft a{
+   display: inline-block;
+   height: 30px;
+   margin:5px 0 5px 15px;
 }
