@@ -1,0 +1,1160 @@
+ /* 引入字体文件 申明一种字体 */
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./fonts/iconfont.eot');
+  src: url('./fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/iconfont.woff2') format('woff2'),
+      url('./fonts/iconfont.woff') format('woff'),
+      url('./fonts/iconfont.ttf') format('truetype'),
+      url('./fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 12px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.elves-figure{
+   background: url(http://gtms04.alicdn.com/tps/i4/TB1DYk6LVXXXXXIXVXXoj7wNVXX-400-340.png);
+   background-repeat: no-repeat;
+}
+.site-nav{
+	width: 1190px;
+	margin:0 auto;
+    height: 35px;
+    line-height: 35px;
+    color: #6C6C6C;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+ }
+.site-nav-bd-l  li{
+	float: left;
+}
+.site-nav-region{
+	color: #3C3C3C;
+}
+.site-nav-arrow{
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    line-height: 6px;
+    overflow: hidden;
+    margin: 14px 8px 0 8px;
+}
+.site-nav-icon{
+	display: inline-block;
+	font-size: 1px;
+    margin-right: 20px;
+}
+.site-nav-sign-login{
+    color: #f22e00 !important;
+    margin: 0 10px;
+}
+.site-nav-sign-register{
+	 margin-right: 20px;
+}
+.site-nav-bd-r {
+	
+}
+.site-nav-bd-r li{
+	 float: right;
+}
+.site-navigation{
+	margin:0 5px;
+}
+.site-navigation-logo{
+	font-size: 10px;
+	color: #f40;
+}
+.site-vertical-curve{
+	margin:0 7px; 
+}
+.site-pentacle{
+	margin:0 4px 0px 10px;
+	color: #9c9c9c;
+	font-size: 14px;
+}
+.site-shopping-cart{
+	font-size: 15px;
+	color: #f40;
+ 	margin:0 5px 0 7px;
+}
+.site-navigation-logo,
+.site-navigation-service,
+.site-navigation-goods-category{	
+	margin-left: 7px;
+
+}
+
+/**************************************************************/
+.tb-header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: #6C6C6C;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.tb-header-l{
+	float: left;
+}
+.tb-header-logo{
+	float: left;
+	display: inline-block;
+	width: 96px;
+	height: 38px;
+	margin-left: 15px;
+}
+.tb-header-market-btn{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	display: inline-block;
+	width: 75px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 8px;
+	font: 12px/18px "\5b8b\4f53";
+	border: 1px solid #e2e2e2;
+	box-sizing: border-box;
+}
+.tb-header-market-icon{
+	display: inline-block;
+	font-size: 1px;
+}
+
+.tb-header-r{
+	float: right;
+	padding-right: 35px;
+	padding-top: 10px;
+}
+.search-box{
+	display: inline-block;
+	width: 427px;
+	height: 30px;
+
+}
+.search-box-text{
+	float: left;
+	padding: 5px 10px;
+	width: 279px;
+	height: 30px;
+	overflow: hidden;
+	border:1px solid #f40;
+	box-sizing: border-box;
+}
+.search-tao-bao{
+	float: left;
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #f40;
+	border:1px solid #f40;
+	cursor: pointer;
+    font-size: 12px;
+    float: left;
+    background-color: #f40;
+    color: #fff;
+    margin-left: -1px;
+
+}
+.search-our-store{
+	float: left;
+	display: inline-block;
+	width: 72px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #ffe4d0;
+    color: #f40;
+    border: 1px solid #ffb086;
+    margin-left: 3px;
+    box-sizing: border-box;
+}
+
+.top-banner{
+	height: 140px;
+	background-image: url("http://gdp.alicdn.com/imgextra/i4/1952739269/O1CN01AopsTw2ILFjLl3idM_!!1952739269.png?1587965190717");
+	background-size: 100% 100%;
+}
+
+.top-nav{
+	position: relative;
+	top: -1px;
+	width: 950px;
+	height: 31px;
+	margin:auto;
+	background-color: #000000;;
+	box-sizing: border-box;
+}
+.all-categories{
+	float: left;
+	padding: 0 20px;
+    cursor: pointer;
+    width: 80px;
+    background: none;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color:#666666;
+}
+
+.all-categories-title{
+	display: inline-block;
+	color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    font-family: microsoft yahei;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.popup-icon {
+    border-width: 0;
+    margin: 11px 7px 0 0;
+    float: right;
+    font-size: 0;
+    width: 13px;
+    height: 10px;
+    display: block;
+    overflow: hidden;
+    background: url(http://gdp.alicdn.com/imgextra/i3/TB12kcjGXXXXXXOapXXtKXbFXXX.gif) no-repeat 0 0 transparent;
+}
+
+.home-page{
+	float: left;
+	width: 54px;
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	padding: 0 15px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.main{
+	margin-top: 10px;
+}
+.product-intro{
+	height: 745px;
+	padding-left: 40px;
+}
+
+.product-content-l{
+	float: left;
+	width: 940px;
+	height: 572px;
+	padding: 20px 20px 0 20px;
+	position: relative;
+	border: 1px solid #E8E8E8;
+	border-right:none;
+	box-sizing: border-box;
+}
+.tb-item-info-l{
+	float: left;
+	width: 400px;
+	overflow: hidden;
+}
+.photo-gallery{
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+.magnifying-glass{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+    font-size: 18px!important;
+    color: #ccc;
+    z-index: 2;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    cursor: default;
+}
+.switch-picture{
+	width: 400px;
+	height: 54px;
+	margin: 20px 0 15px 0;
+	box-sizing: border-box;
+}
+
+.switch-picture li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 9px;
+	box-sizing: border-box;
+}
+.collect-baby{
+	width: 70px;
+	height: 22px;
+	line-height: 24px;
+	box-sizing: border-box;
+}
+.collect-ico{
+	float: left;
+    width: 16px;
+    height: 16px;
+    margin: 4px 5px 0 0;
+    background-position: -120px 0;
+}
+.tb-item-info-r{
+	float: left;
+	width: 498px;
+	height: 536px;
+	padding-left: 18px;
+	box-sizing: border-box;
+}
+.tb-item-info-title{
+	min-height: 21px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #3C3C3C;
+}
+.tb-item-info-price{
+	margin-top: 20px;
+	width: 480px;
+	height: 55px;
+	padding: 10px;
+    background-color: #FFF2E8;
+	box-sizing: border-box;
+}
+.tb-item-info-price-title{
+	display: inline;
+    float: left;
+    width: 60px;
+    color: #6c6c6c;
+}
+.tb-item-info-price-money{
+	float: left;
+	display: inline-block;
+	width: 255px;
+	height: 27px;
+}
+.tb-item-info-price-money strong{
+	position: relative;
+    top: -2px;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    color: #f40;
+    overflow: hidden;
+}
+.tb-item-info-price-money em{
+	font-family: arial;
+    font-weight: 400;
+    margin-right: 4px;
+}
+.tb-item-info-price-money span{
+	font-family: verdana,arial;
+}
+.tb-item-info-price-evaluate{
+	float: left;
+	width: 70px;
+	height: 41px;
+	padding: 0 9px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+}
+.evaluate-num{
+	color: #6c6c6c;
+	display: block;
+}
+.tb-item-info-price-deal{
+	float: left;
+	width: 60px;
+	height: 41px;
+	padding-left: 9px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.deal-num{
+	color: #6c6c6c;
+	display: block;
+}
+.tb-item-info-distribution{
+	margin-top: 5px;
+    margin-bottom: 5px;
+    width: 480px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.distribution-title{
+	display: inline;
+    float: left;
+    width: 60px;
+    color: #6c6c6c;
+}
+.distribution-address{
+	font-size: 12px;
+    color: #3c3c3c;
+    line-height: 24px;
+    word-break: keep-all;
+    float: left;
+}
+
+.distribution-address em{
+	margin:0 5px;
+}
+.residential-address{
+	width: 74px;
+	height: 20px;
+    cursor: pointer;
+    padding: 1px 3px;
+   
+}
+.residential-address s{
+	display: inline-block;
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-color: #606060 transparent transparent;
+    border-width: 4px 4px 0;
+    border-style: solid;
+    margin: 2px 5px 2px 5px;
+}
+.expressage{
+	float: left;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 2px;
+	margin-right: 2px;
+    cursor: pointer;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+.expressage s{
+	display: inline-block;
+    position: relative;
+    width: 0;
+    height: 0;
+    top: -20px;
+    right: -65px;
+    overflow: hidden;
+    border-color: #606060 transparent transparent;
+    border-width: 4px 4px 0;
+    border-style: solid;
+    margin: 2px 5px 2px 5px;
+}
+.shipments{
+	font-size: 12px;
+    color: #3c3c3c;
+    line-height: 26px;
+    word-break: keep-all;
+    float: left;
+}
+.tb-item-info-sep-line{
+	color: #D9D9D9;
+	position: relative;
+    margin: 10px 0 20px;
+    height: 1px;
+    border-bottom: 1px dotted #D9D9D9;
+    overflow: hidden;
+}
+.tb-item-info-color-classification{
+	width: 470px;
+	height: 92px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.color-classification-title{
+	float: left;
+	width: 60px;
+	height: 92px;
+    color: #6C6C6C;
+    box-sizing: border-box;
+}
+.color-classification-switch{
+	float: left;
+	width: 410px;
+}
+.color-classification-switch li{
+	float: left;
+	margin: 0 5px 10px 0
+}
+.color-classification-switch li a{
+	float: left;
+	width: 94px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+    border: 1px solid #DCDCDC;
+	box-sizing: border-box;
+}
+.tb-item-info-purchase-quantity{
+	width: 469px;
+	height: 28px;
+}
+.purchase-quantity-title{
+	float: left;
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+    color: #6C6C6C;
+    box-sizing: border-box;
+}
+.tb-stock{
+	float: left;
+	width: 108px;
+	height: 28px;
+	line-height: 28px;
+}
+.tb-stock-subtract,
+.tb-stock-add{
+	float: left;
+	width: 27px;
+	height: 28px;
+	font-size: 15px;
+	line-height: 28px;
+	text-align: center;
+	color: #ccc;
+    cursor: not-allowed;
+    background-color: #ededed;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.tb-stock-add{
+	color: #3C3C3C;
+	cursor: pointer;
+}
+.tb-stock input{
+	float: left;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #CCC;
+    border-right: none;
+    border-left: none;
+    outline: 0;
+    background: #FFF;
+}
+.piece{
+	color: #3C3C3C;
+	font: 12px/32px tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.tb-item-info-installment{
+	width: 469px;
+	height: 96px;
+	box-sizing: border-box;
+	margin:10px 0  3px 0;
+}
+.installment-title{
+	float: left;
+	width: 60px;
+	height: 96px;
+	color: #6C6C6C;
+}
+.installment-content{
+	float: left;
+	width: 409px;
+	height: 96px;
+	box-sizing: border-box;
+}
+.installment-content-explain{
+	width: 409px;
+	height: 18px;
+	font: 12px tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+
+}
+.installment-content-explain a{
+    border: none;
+    border-bottom: 1px dashed;
+    padding: 0;
+}
+.installment-content-switch{
+	display: block;
+	width: 409px;
+	height: 58px;
+	margin-top: 10px;
+}
+.installment-content-switch li{
+	float: left;
+	margin-right:5px; 
+}
+
+.installment-content-switch li a{
+	float: left;
+	width: 85px;
+	height: 48px;
+	color: #D5D5D5;
+	font-size: 12px;
+	padding: 3px 7px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px dotted #d6d6d8;
+    box-sizing: border-box;
+}
+.tb-item-info-btn{
+	width: 469px;
+	height: 40px;
+}
+.purchase-now{
+	float:left;
+    cursor: pointer;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+    font-size: 16px;
+	margin-right: 9px;
+	color: #E5511D;
+    border-color: #F0CAB6;
+    background: #FFE4D0;
+    box-sizing: border-box;
+}
+.add-hopping-cart{
+	float:left;
+    cursor: pointer;
+    width: 182px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+    font-size: 16px;
+	color: #FFF;
+    border-color: #F40;
+    background: #F40;
+    box-sizing: border-box;
+}
+.iconfont-car{
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.report{
+	position: absolute;
+	display: inline-block;
+	top: -10px;
+	right: 20px;
+	padding:0 10px 0 10px;
+    height: 22px;
+    width: 46px;
+    line-height: 23px;
+    text-align: right;
+    color: #9A9A9A;
+    background: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.product-seller-r{
+	float:left;
+	width: 200px;
+	height: 738px;
+	background: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************/
+.footer{
+	height: 272px;
+	background-color:#fff;
+	padding-top: 5px;
+	box-sizing: border-box;
+	padding-top: 7px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+.tb-footer-hd p {
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+}
+.tb-footer-hd span {
+    margin: 0 3px;
+}
+.tb-footer-hd b {
+    margin: 0 3px;
+    font-weight: 400;
+    color: #ddd;
+}
+.tb-footer-bd{
+
+}
+.tb-footer-bd p {
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+.tb-footer-bd span {
+    margin: 0 3px;
+}
+.tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+.tb-footer-bd em {
+    margin-left: 30px;
+    font-style: normal;
+}
+.tb-footer-bd b {
+    margin: 0 1px;
+    font-weight: 400;
+    color: #ddd;
+}
+.tb-footer-mod {
+	display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+}
+.tb-footer-mod-b{
+	background-position: 0px 0px;
+    width: 36px;
+    background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+}
+.footer a{
+	font-size: 11px;
+}
+.tb-footer-ft {
+    height: 80px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tb-footer-ft a{
+   display: inline-block;
+   height: 35px;
+   margin:5px 0 5px 15px;
+}
+
+
+
+/****************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************
+
+		<footer class="footer">
+		<div class="w">
+			<div class="tb-footer-hd">
+				<p>
+					<span>
+						<a href="#">阿里巴巴集团</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">淘宝网</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">天猫</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">聚划算</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">全球速卖通</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里巴巴国际交易市场</a>
+					</span>
+					<b>|</b>
+					<span><a href="#">1688</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里妈妈</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">飞猪</a>
+					</span>
+					<b>|</b>
+					<span>
+					<a href="#">淘小铺</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里云计算</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">AliOS</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里通信</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">一淘</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">万网</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">高德</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">UC</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">友盟</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里安全</a>
+					</span>
+					<br>
+					<span>
+						<a href="#">虾米</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">大麦网</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">钉钉</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">支付宝</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">优酷</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">土豆</a>
+					</span>
+					<b>|</b>
+					<span><a href="#">阿里健康</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里影业</a>
+					</span>
+					<b>|</b>
+					<span>
+						<a href="#">阿里体育</a>
+					</span>
+					<b>|</b>
+					<span><a href="#">网商银行</a>
+					</span>
+				</p>
+			</div>
+			<div class="tb-footer-bd">
+
+       			<p>
+          			<span>
+          				<a href="#">关于淘宝</a>
+          			</span>
+          			<span>
+          				<a href="#">合作伙伴</a>
+          			</span>
+          			<span>
+          				<a href="#">营销中心</a>
+          			</span>
+          			<span>
+          				<a href="#">廉正举报</a>
+          			</span>
+          			<span>
+          				<a href="#">联系客服</a>
+          			</span>
+          			<span>
+          				<a href="#">开放平台</a>
+          			</span>
+          			<span>
+          				<a href="#">诚征英才</a>
+          			</span>
+          			<span>
+          				<a href="#">联系我们</a>
+          			</span>
+          			<span>
+          				<a href="#">网站地图</a>
+          			</span>
+          			<span>
+          				<a href="#">隐私权政策</a>
+          			</span>
+          			<span>
+          				<a href="#">法律声明</a>
+          			</span>
+          			<span>
+          				<a href="#">知识产权</a>
+          			</span>
+         			<b>|</b> 
+         			<em>© 2003-现在 Taobao.com 版权所有</em>
+        		</p>
+
+        		<p>
+        			<span>
+        				<a href="#">增值电信业务经营许可证：浙B2-20080224</a>
+        			</span>
+        			<b>|</b>
+        			<span>
+        				<a href="#">增值电信业务经营许可证（跨地区）： B2-20150210</a>
+        			</span>
+        			<b>|</b>
+        			<span>
+        				<a href="#r">浙网文（2019）1033-086号</a>
+        			</span>
+        			<b>|</b>
+        			<span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</span>
+        		</p>
+
+        		<p>
+        			<span>互联网药品信息服务资格证书（浙）-经营性-2018-0010</span>
+        			<b>|</b>
+        			<span>短消息类服务接入代码使用证书：号【2016】0154-A01</span>
+        			<b>|</b>
+        			<span>信息网络传播视听许可证：1109364号</span>
+        			<b>|</b>
+        			<span>出版物网络交易平台服务经营备案号：新出发浙备字第002号</span>
+        		</p>
+
+        		<p>
+        			<span>
+           				 <a target="_blank" href="#">
+              				<span class="tb-footer-mod" style="background-position:-861px 0px; width:20px; height: 20px; "></span>
+             		 		<span>浙公网安备 33010002000078号</span>
+            			</a>
+            		</span>
+            		<b>|</b>
+            		<span>广播电视节目制作经营许可证（浙）字第01012号</span>
+            		<b>|</b>
+            		<span>市场名称登记证：工商网市字3301004120号</span>
+            		<b>|</b>
+            		<span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</span>
+            	</p>
+      		</div>
+			<div class="tb-footer-ft">
+				<span>
+            		<a target="_blank" href="#" style="background-position:0px 0px; width:36px;  background-image: url(http://img.alicdn.com/tps/i1/T1FeW3XXNfXXXXXXXX-36-36.gif);" class="tb-footer-mod-b">
+           			 </a>
+           		</span>
+           		<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:0px 0px; width:30px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:-40px 0px; width:33px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:-80px 0px; width:50px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:-140px 0px; width:83px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:0px -18px; width:250px; background-image: url(http://img.alicdn.com/tfs/TB1N7kwRVXXXXbAapXXXXXXXXXX-500-127.png_250x250);">
+      					
+      				</a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b" style="background-position:-650px 0px; width:105px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b" style="background-position:-345px 0px; width:82px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b"  style="background-position:-761px 0px; width:97px;"></a>
+      			</span>
+      			<span>
+      				<a target="_blank" href="#" class="tb-footer-mod-b" style="background-position:-884px 0px; width:249px;"></a>
+      			</span>
+      		</div>
+		</div>
+	</footer>*/
